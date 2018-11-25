@@ -1,0 +1,1 @@
+buy = (stoch_k < 30 and rsi < 20)

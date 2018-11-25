@@ -1,0 +1,1 @@
+sell = cross(macd_macd, source_0_close)

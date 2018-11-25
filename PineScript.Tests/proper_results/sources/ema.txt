@@ -1,0 +1,1 @@
+ema = ema(close, 10)

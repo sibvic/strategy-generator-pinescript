@@ -1,0 +1,1 @@
+strategy.entry("long", strategy.long, when = buy)

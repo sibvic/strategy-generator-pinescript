@@ -1,0 +1,4 @@
+bb_middle_band = sma(close, 20)
+bb_sma_deviation = 2.0 * stdev(close, 20)
+bb_TL = bb_middle_band + bb_sma_deviation
+bb_BL = bb_middle_band - bb_sma_deviation

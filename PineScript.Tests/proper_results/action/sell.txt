@@ -1,0 +1,1 @@
+strategy.entry("short", strategy.short, when = sell)

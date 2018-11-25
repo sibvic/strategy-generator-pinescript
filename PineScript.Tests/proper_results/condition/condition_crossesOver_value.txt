@@ -1,0 +1,1 @@
+sell = crossover(macd_macd, 1.0)

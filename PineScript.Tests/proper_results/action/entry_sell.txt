@@ -1,0 +1,3 @@
+entry_sell = crossover(source_0, close)
+entry_sell_rate = high
+strategy.order("entry sell", false, stop = close < entry_sell_rate ? entry_sell_rate : NaN, limit = close > entry_sell_rate ? entry_sell_rate : NaN, when = entry_sell)

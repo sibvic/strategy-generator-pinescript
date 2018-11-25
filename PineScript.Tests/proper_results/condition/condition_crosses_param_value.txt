@@ -1,0 +1,1 @@
+buy = cross(close, param_0)

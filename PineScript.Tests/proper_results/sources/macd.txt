@@ -1,0 +1,1 @@
+[macd_macd, macd_signal, macd_hist] = macd(close, 12, 26, 9)

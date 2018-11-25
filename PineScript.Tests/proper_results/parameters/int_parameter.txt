@@ -1,0 +1,1 @@
+os_level = input(80, "Oversold level", integer)

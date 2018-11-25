@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/PineScript.Tests/obj
+/PineScript.Tests/bin
+/PineScript/obj
+/PineScript/bin
+/PineScript/.vs

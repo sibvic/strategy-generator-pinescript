@@ -1,0 +1,2 @@
+exit_sell = crossunder(stoch_k, 20.0)
+strategy.close("short", when = exit_sell)

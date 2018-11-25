@@ -1,0 +1,2 @@
+exit_all = crossunder(stoch_k, 20.0)
+strategy.close_all(when = exit_all)

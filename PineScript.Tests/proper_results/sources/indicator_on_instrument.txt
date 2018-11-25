@@ -1,0 +1,5 @@
+instrument_open = security(tickerid, "m1", open)
+instrument_high = security(tickerid, "m1", high)
+instrument_low = security(tickerid, "m1", low)
+instrument_close = security(tickerid, "m1", close)
+mva = sma(instrument_close, 7)

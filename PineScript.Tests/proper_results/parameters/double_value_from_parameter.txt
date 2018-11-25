@@ -1,0 +1,1 @@
+buy = (stoch_k > os_level and allow_buy == true)

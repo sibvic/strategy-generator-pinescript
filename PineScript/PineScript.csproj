@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>ProfitRobots.PineScript</AssemblyName>
+    <RootNamespace>ProfitRobots.PineScript</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model\Model.csproj" />
+  </ItemGroup>
+
+</Project>

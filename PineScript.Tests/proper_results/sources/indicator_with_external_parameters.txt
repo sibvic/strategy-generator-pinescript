@@ -1,0 +1,1 @@
+[indicator_1_macd, indicator_1_signal, indicator_1_hist] = macd(close, param_1, param_2, param_3)

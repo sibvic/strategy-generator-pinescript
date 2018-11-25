@@ -1,0 +1,1 @@
+buy = (indicator_1_macd > indicator_1_signal or indicator_1_signal < indicator_1_macd)

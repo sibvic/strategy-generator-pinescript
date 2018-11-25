@@ -1,0 +1,6 @@
+[macd_macd, macd_signal, macd_hist] = macd(close, 12, 26, 9)
+source_0_open = security(tickerid, "m1", open)
+source_0_high = security(tickerid, "m1", high)
+source_0_low = security(tickerid, "m1", low)
+source_0_close = security(tickerid, "m1", close)
+buy = crossover(macd_macd, source_0_close)

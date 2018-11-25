@@ -1,0 +1,2 @@
+stoch_k = sma(stoch(close, high, low, 5), 7)
+stoch_d = sma(stoch_k, 6)

@@ -1,0 +1,1 @@
+allow_buy = input(true, "Allow buy", bool)
